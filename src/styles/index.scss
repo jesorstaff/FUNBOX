@@ -1,4 +1,18 @@
+@import "fonts";
+@import "variables";
+
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
 }

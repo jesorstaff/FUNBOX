@@ -1,0 +1,57 @@
+import ImageCat from '../asssets/images/cat.png'
+
+export const products = [
+  {
+    id: 1,
+    weight: '0,5',
+    status: true,
+    subtitle: 'Сказочное заморское яство',
+    subtitleSelected: 'Котэ не одобряет?',
+    name: 'Нямушка',
+    type: 'с фуа-гра',
+    portionCount: 10,
+    portion: 'порций',
+    present: 'мышь в подарок',
+    image: ImageCat,
+    description: 'Чего сидишь? Порадуй котэ, ',
+    descriptionBtn: 'купи.',
+    descriptionSelected: 'Печень утки разварная с артишоками.',
+    descriptionDisabled: 'Печалька, с фуа-гра закончился.'
+  },
+  {
+    id: 2,
+    status: true,
+    weight: '2',
+    subtitle: 'Сказочное заморское яство',
+    subtitleSelected: 'Котэ не одобряет?',
+    name: 'Нямушка',
+    type: 'с рыбой',
+    portionCount: 40,
+    portion: 'порций',
+    presentCount: 2,
+    present: 'мыши в подарок',
+    image: ImageCat,
+    description: 'Чего сидишь? Порадуй котэ, ',
+    descriptionBtn: 'купи.',
+    descriptionSelected: 'Головы щучьи с чесноком да свежайшая сёмгушка.',
+    descriptionDisabled: 'Печалька, с рыбой закончился.'
+  },
+  {
+    id: 3,
+    weight: '5',
+    status: false,
+    subtitle: 'Сказочное заморское яство',
+    subtitleSelected: 'Котэ не одобряет?',
+    name: 'Нямушка',
+    type: 'с курой',
+    portionCount: 100,
+    portion: 'порций',
+    presentCount: 5,
+    present: 'мышей в подарок заказчик доволен',
+    image: ImageCat,
+    description: 'Чего сидишь? Порадуй котэ, ',
+    descriptionBtn: 'купи.',
+    descriptionSelected: 'Филе из цыплят с трюфелями в бульоне.',
+    descriptionDisabled: 'Печалька, с курой закончился.'
+  },
+]
